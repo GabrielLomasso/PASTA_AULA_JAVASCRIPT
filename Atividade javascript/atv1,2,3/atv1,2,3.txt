@@ -1,0 +1,94 @@
+Atividade Javascript
+1_a)
+	Variaveis
+	let A
+	let B
+
+	Algoritmo
+	
+	Entrada
+	A=5
+	B=20
+	let soma
+	
+	Processamento
+	soma = A + B
+	imprima: soma
+
+b)
+	Variaveis
+	let A
+	let B
+
+	Algoritmo
+	
+	Entrada
+	A=5
+	B=20
+	let mult
+	
+	Processamento
+	mult = A * B
+	imprima: mult
+
+c)
+	Variaveis
+	let A
+	let B
+
+	Algoritmo
+	
+	Entrada
+	A=5
+	B=20
+	let div
+	
+	Processamento
+	div = B / A
+	imprima: div
+
+d)
+	Variaveis
+	let A
+	let B
+
+	Algoritmo
+	
+	Entrada
+	A=5
+	B=20
+	let sub
+	
+	Processamento
+	sub = A - B
+	imprima: sub
+
+2_
+	Variaveis
+	let numero
+	let antecessor
+
+	Algoritmo
+	
+	Entrada
+	receba numero
+	
+	Processamento
+	antecessor = numero - 1
+	imprima: antecessor
+
+3_
+	Variaveis
+	let base
+	let altura
+	let area
+
+	Algoritmo
+	
+	Entrada
+	receba base
+	receba altura
+	
+	Processamento
+	area = base * altura
+	imprima: area
