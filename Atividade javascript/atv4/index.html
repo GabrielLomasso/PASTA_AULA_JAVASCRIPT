@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Nota trimestre</h1>
+        <div class="form">
+            <label>Nome do aluno:</label>
+            <input type="text" id="nome" placeholder="Escreva...">
+            <label>Nota do primeiro trimestre:</label>
+            <input type="text" id="nota1"  placeholder="Escreva...">
+            <label>Nota do segundo trimestre:</label>
+            <input type="text" id="nota2"  placeholder="Escreva...">
+            <label>Nota do terceiro trimestre:</label>
+            <input type="text" id="nota3" placeholder="Escreva...">
+            <button onclick="Media()">Enviar Notas</button>
+        </div>
+    </div>
+
+    <div class="container direita" id="abaDireita">
+        <h1 id="Nome_result"></h1>
+        <div class="resultado">
+            <div class="nota_final">
+                <h3>Média:</h3>
+                <h4 id="media_result"></h4>
+            </div>
+            <div class="situacao_final">
+                <h3>Situação:</h3>
+                <h4 id="situacao_result"></h4>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

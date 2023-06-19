@@ -1,0 +1,39 @@
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+    animation-name: animatetop;
+    animation-duration: 1s;
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#myBtn{
+    background-color: rgb(30, 118, 195);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+@keyframes animatetop{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
